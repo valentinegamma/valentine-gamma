@@ -1,3 +1,10 @@
+/* 
+--------------------------------------------------
+ACHIEVEMENTS GRID
+--------------------------------------------------
+
+*/
+
 .achievements-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -7,11 +14,12 @@
 }
 
 .achievements-flex {
+  border: 1px solid #6b006b; 
   border-radius: 20px;
   background-color: #00200091;
   width: 250px;
   padding: 20px;
-  box-shadow: 0px 0px 300px #001100;
+  /* box-shadow: 0px 0px 4px #6b006b; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,4 +44,78 @@
 .achievements-h1 {
   font-size: 40px;
   /* color: #ff77ff; */
+}
+/* 
+--------------------------------------------------
+SKILLS GRID
+--------------------------------------------------
+
+*/
+
+.skills-journey-grid {
+  max-width: 1300px;
+  column-gap: 3rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.skills {
+  border: 1px solid #6b006b;
+  border-radius: 20px;
+  padding: 30px 0px;
+  align-items: center;
+  justify-items: center;
+  background-color: #000a0091;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 4rem;
+  margin: 5rem 0rem;
+  /* box-shadow: 0px 2px 4px #6b006b; */
+
+}
+
+.journey {
+  border-radius: 20px;
+  margin: 5rem 0rem;
+  background-color: #00200091;
+  border: 1px solid #6b006b;
+
+
+  display: flex;
+  flex-direction: column;
+  grid-column: span 3;
+}
+
+.skills-img {
+  align-self: center;
+  max-width: 60px;
+  width: 100%;
+}
+
+.h1-skills {
+  grid-column: span 2;
+  font-size: 2rem;
+  align-self: stretch;
+  color: limegreen;
+}
+
+/* 
+--------------------------------------------------
+PROJECTS GRID
+--------------------------------------------------
+
+*/
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+
+}
+
+projects-item {
+  background-color: #00200091;
+  border: 1px solid #6b006b;
 }
