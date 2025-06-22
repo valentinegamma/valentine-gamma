@@ -115,15 +115,25 @@ JOURNEY GRID
 
 .journey-img {
   grid-column: span 1;
+<<<<<<< HEAD
   width: 150px;
   /* max-width: fit-content; */
   height: 150px;
+=======
+  width: 200px;
+  /* max-width: fit-content; */
+  height: 200px;
+>>>>>>> 54466dd56dcda3e139f7744325b2f8973a8735d0
   border-radius: 20px;
 }
 
 .journey-paragraph {
   grid-column: span 3;
+<<<<<<< HEAD
   font-size: 12px;
+=======
+  font-size: 16px;
+>>>>>>> 54466dd56dcda3e139f7744325b2f8973a8735d0
   line-height: 24px;
   color: rgb(179, 178, 178);
   font-weight: 100;
