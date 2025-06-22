@@ -35,11 +35,7 @@ NAV BAR
   position: absolute;
   top: 0;
   width: 100%;
-<<<<<<< HEAD
   height: 65px;
-=======
-  height: 80px;
->>>>>>> 54466dd56dcda3e139f7744325b2f8973a8735d0
   background: linear-gradient(to right, #002c0080, #2c002c79);
   /* background: linear-gradient(to right, #002c00, #2c002c); */
 
