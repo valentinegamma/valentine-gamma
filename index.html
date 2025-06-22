@@ -7,11 +7,12 @@
 
   <link rel="stylesheet" href="stylesheets/main.css">
   <link rel="stylesheet" href="stylesheets/header.css">
+  <link rel="stylesheet" href="stylesheets/footer.css">
 </head>
 <body>
 
   <nav>
-  <ul class="nav-list nav">
+  <ul class="nav-list">
     <li> <img src="images/gamma_logo.png" alt="gamma-logo" class="gamma-logo"></li>
     <li>
       <ul class="nav-links">
@@ -20,7 +21,7 @@
         <li>portfolio</li>
       </ul>
     </li>
-    <li>Contact me</li>
+    <li class="nav-contact-me">Contact me</li>
   </ul>
   </nav>
 
@@ -44,9 +45,9 @@
 
     <main>
 
-<!-- --------------------------------------------------
-SKILLS & JOURNEY SECTION
--------------------------------------------------- -->
+      <!-- --------------------------------------------------
+      SKILLS & JOURNEY SECTION
+      -------------------------------------------------- -->
       <section class="achievements-grid">
         
         <div class="achievements-flex">
@@ -165,7 +166,7 @@ PROJECTS SECTION
 
       </section>
 
-      
+
       <h1 class="heading-testimonials"> &lt;/ What people say about me... &gt; </h1>
       <!-- TESTIMONIALS GRID CONTAINER WITH CARDS-->
       <section class="testimonials-grid">
@@ -208,12 +209,116 @@ PROJECTS SECTION
 
       </section>
 
+<!-- --------------------------------------------------
+CALL TO ACTION
+-------------------------------------------------- -->
+
+<!-- Main grid containing form and contact info card -->
+      <section class="call-to-action-grid">
+        <article class="cta-banner">
+          <img src="images/contact-us-or-the-customer-support.png" alt="cta-banner-img" class="cta-banner-img">
+        </article>
+        
+        <!-- input form -->
+        <form action="" class="cta-form-flex">
+          <div class="form-item">
+            <img src="images/user-svgrepo-com.svg" alt="user" class="form-user-name">
+            <input type="text" placeholder="Name" class="input">
+          </div>
+          <div class="form-item">
+            <img src="images/mail-svgrepo-com.svg" alt="user" class="form-user-name">
+            <input type="email" placeholder="Email" class="input">
+          </div>
+
+          <textarea name="Message" id="" cols="30" rows="10" placeholder="Message" class="form-item textarea-form-item"></textarea>
+
+          <button class="form-button">
+            <p>Submit</p>
+            <img src="images/" alt="user" class="form-user-name">
+          </button>
+          </div>
+
+          
+        </form>
+      </section>
+
     </main>
 
-    <footer>
+    <footer class="container">
+      <section class="footer-grid">
+        <ul class="footer-flex">
+          <li><img src="images/gamma_logo.png" alt="gamma-logo" height="30px"></li>
+          <li>Code Precision</li>
+        </ul>
+        <ul class="footer-flex">
+          <li>SUPPORT</li>
+          <li>AFFILIATES</li>
+          <li>RESOURCES</li>
+        </ul>
+        <ul class="footer-flex">
+          <li>SUPPORT</li>
+          <li>AFFILIATES</li>
+          <li>RESOURCES</li>
+        </ul>
+        <ul class="footer-flex">
+          <li>SUPPORT</li>
+          <li>AFFILIATES</li>
+          <li>RESOURCES</li>
+        </ul>
+        <ul class="footer-flex">
+          <li>SUPPORT</li>
+          <li>AFFILIATES</li>
+          <li>RESOURCES</li>
+        </ul>
+      </section>
 
+      <section class="contact-me-flex-main">
+        <!-- Flexbox containing contact us item 1 -->
+        <div class="contact-me-flex">
+          <img src="images/contact-pin-location-svgrepo-com.svg" alt="location Image" class="contact-me-flex-img">
+          <p class="contact-me-flex-paragraph"> Nairobi, Kenya</p>
+        </div>
+
+        <!-- Flexbox containing contact us item 2 -->
+        <div class="contact-me-flex">
+          <img src="images/contact-email-mail-svgrepo-com.svg" alt="email" class="contact-me-flex-img">
+          <p class="contact-me-flex-paragraph"> gamma.dashboard@gmail.com </p>
+        </div>
+          
+        <!-- Flexbox containing contact us item 3 -->
+        <div class="contact-me-flex">
+          <img src="images/contact-phone-talking-svgrepo-com.svg" alt="" class="contact-me-flex-img">
+          <p class="contact-me-flex-paragraph"> +25489852219</p>
+        </div>
+
+        <!-- Flexbox containing contact us item 4 -->
+        <div class="contact-me-flex">
+          <img src="images/contact-connection-network-svgrepo-com (1).svg" alt="www logo" class="contact-me-flex-img">
+          <p class="contact-me-flex-paragraph"> Gammareal.com</p>
+        </div>
+      </section>
+        
+      <!-- Flexbox containing contact us item 3(social links)-->
+      <section> 
+        <div class="social-links-flex-main">
+          <ul class="social-links-flex">
+            <li>
+              <img src="images/github-142-svgrepo-com.svg" alt="github-logo" class="social-link-img">
+            </li>
+            <li>
+              <img src="images/discord-fill-svgrepo-com.svg" alt="reddit-logo" class="social-link-img">
+            </li>
+            <li>
+              <img src="images/linked-in-logo-of-two-letters-svgrepo-com.svg" alt="" class="social-link-img">
+            </li>
+            <li>
+              <img src="images/pinterest-circular-logo-symbol-svgrepo-com.svg" alt="" class="social-link-img">
+            </li>
+          </ul>
+          <p class="contact-me-flex-paragraph">Copyright All right reserved. 2025</p>
+        </div>
+      </section>
     </footer>
-
 
   </div>
   

@@ -184,7 +184,7 @@ TESTIMONIALS SECTION
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   column-gap: 2rem;
-  margin: 4rem 1rem;
+  margin: 4rem 1rem 8rem 1rem;
   border-radius: 20px;
   /* background-color: #00110091; */
   /* border: 1px solid #6b006b5e; */
@@ -225,7 +225,7 @@ TESTIMONIALS SECTION
 }
 
 .testimonials-heading {
-   position: absolute;
+  position: absolute;
   bottom: 20px;
   font-weight: 500;
   color: rgb(218, 218, 218);
@@ -239,4 +239,94 @@ TESTIMONIALS SECTION
   color: silver;
   text-align: center;
   margin-bottom: 2.5rem;
+}
+
+/* --------------------------------------------------
+CONTACT US & CALL TO ACTION
+-------------------------------------------------- */
+
+.call-to-action-grid {
+  column-gap: 2rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom:10rem ;
+  border-radius: 20px;
+  padding: 5px 30px;
+  background-color: #00110091;
+  border: 1px solid #6b006b5e;
+  box-shadow: 0px 2px 4px #140014;
+  background: linear-gradient(225deg, #0011009d, #140014ad);
+}
+
+.cta-banner {
+  grid-column: span 1;
+
+}
+
+.cta-banner-img {
+  width: 100%;
+  max-width: inherit;
+}
+
+.contact-me-item {
+  display: flex;
+  align-items: center;
+  column-gap: 1.5rem;
+}
+
+/*------------- Form -------------*/
+
+.cta-form-flex {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  grid-column: span 2;
+  row-gap: 2rem;
+  justify-content: center;
+
+}
+
+.form-item {
+  display: flex;
+  border-radius: 20px;
+  padding: 8px 16px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(197, 197, 197);
+  column-gap: 1rem;
+}
+
+.input {
+  border: none;
+  background-color: rgb(197, 197, 197);
+  width: 500px;
+  outline: none;
+}
+
+.form-user-name {
+  width: 100%;
+  max-width: 30px;
+}
+
+.form-button {
+
+  border-radius: 20px;
+  min-width: 19rem;
+  padding: 5px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  column-gap: 1rem;
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  color: rgb(179, 178, 178);
+  font-weight: 200;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border: none;
+  background-color: #b900b98a;
+}
+
+.textarea-form-item {
+  outline: none;
 }
