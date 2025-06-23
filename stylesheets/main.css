@@ -21,13 +21,9 @@ ACHIEVEMENTS GRID
   align-items: center;
   justify-items: center;
   row-gap: 10px;
-  /* box-shadow: 0px 0px 4px #6b006b; */
-  /* border: 1px solid #6b006b;  */
-  /* background-color: #00200091; */
   border-radius: 20px;
   border: 1px solid #6b006b5e;
-  /* box-shadow: 0px 2px 4px #140014; */
-  /* background: linear-gradient(225deg, #001100, #140014); */
+  transition: all 0.3s ease-in-out;
 }
 
 .achievements-img {
@@ -163,6 +159,8 @@ PROJECTS GRID
   border: 1px solid #6b006b5e;
   box-shadow: 0px 2px 4px #140014;
   background: linear-gradient(225deg, #0011009d, #140014ad);
+  transition: all 0.3s ease-in-out;
+
 }
 
 .project-item-flex {
@@ -232,6 +230,7 @@ TESTIMONIALS SECTION
   border: 1px solid #6b006b5e;
   box-shadow: 0px 2px 4px #140014;
   background: linear-gradient(225deg, #0011009d, #140014ad);
+  transition: all 0.4s ease-in-out;
 
 }
 
