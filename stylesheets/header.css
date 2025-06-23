@@ -23,6 +23,7 @@ body {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
+  padding: 0rem 2rem;
 }
 
 /* 
@@ -35,17 +36,17 @@ NAV BAR
   position: absolute;
   top: 0;
   width: 100%;
-  height: 65px;
+  height: 5rem;
   background: linear-gradient(to right, #002c0080, #2c002c79);
   /* background: linear-gradient(to right, #002c00, #2c002c); */
 
 }
 
 .nav-list {
-  letter-spacing: 1px;
-  font-size: 16px;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
   font-weight: 400;
-  padding: 20px 0px;
+  padding: 1rem 0rem;
   position: relative;
   top: 0;
   display: flex;
@@ -64,13 +65,13 @@ NAV BAR
 
 .gamma-logo {
   width: 100%;
-  max-width: 80px;
+  max-width: 8rem;
 }
 
 .nav-contact-me {
-  border: 1px solid silver;
-  border-radius: 20px;
-  padding: 8px 25px;
+  border: 0.1rem solid silver;
+  border-radius: 2rem;
+  padding: 0.8rem 2rem;
   font-weight: 500;
   transition: all 0.2s ease-in-out;
 }
@@ -88,28 +89,28 @@ HERO SECTION
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   column-gap: 2rem;
-  margin: 0.4rem 0rem;
+  margin: 2rem 0rem;
 }
 
 .hero-background {
   position: absolute;
   z-index: -1;
   width: 100%;
-  height: 800px;
+  height: 80rem;
   opacity: 0.08;
 }
 
 .hero-header {
   text-align: left;
-  font-size: 3.7rem;
+  font-size: 3rem;
   line-height: 1.3;
-  letter-spacing: 0.3px;
+  letter-spacing: 0.3rem;
 }
 
 .gamma-img {
   grid-column: span 4;
   width: 100%;
-  max-width: 550px;
+  max-width: 55rem;
 }
 
 .hero-flex {
@@ -125,13 +126,13 @@ HERO SECTION
 .p-nav {
   font-size: 1rem;
   font-size: 1.5rem;
-  letter-spacing: 3px;
+  letter-spacing: 0.3rem;
 }
 
 .p-nav2 {
   font-size: 1rem;
   letter-spacing: 1px;
-  line-height: 30px;
+  line-height: 3rem;
   font-weight: 100;
   color: silver;
   font-family: verdana;
@@ -141,7 +142,7 @@ HERO SECTION
   /* background-color: rgba(193, 255, 169, 0.856); */
   color: silver;
   font-size: 1.6rem;
-  padding: 0 20px;
+  padding: 0 2rem;
   font-weight: bold;
 }
 

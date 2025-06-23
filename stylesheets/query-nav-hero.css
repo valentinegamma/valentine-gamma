@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+  html {
+    font-size: 60%;
+  }
+
+  .hero-flex {
+    row-gap: 0rem;
+  }
+  .p-nav {
+    padding-bottom: 0.6rem;
+  }
+}
+
+
+
+@media (max-width: 425px) {
+  html {
+    font-size: 40%;
+  }
+  .gamma-logo {
+    width: 7rem;
+  }
+} 

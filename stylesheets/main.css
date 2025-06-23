@@ -13,16 +13,16 @@ ACHIEVEMENTS GRID
 }
 
 .achievements-flex {
-  width: 200px;
-  height: 180px;
-  padding: 20px;
+  width: 16rem;
+  height: 16rem;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-items: center;
-  row-gap: 10px;
-  border-radius: 20px;
-  border: 1px solid #6b006b5e;
+  row-gap: 1rem;
+  border-radius: 2rem;
+  border: 0.1rem solid #6b006b5e;
   transition: all 0.3s ease-in-out;
 }
 
@@ -33,16 +33,16 @@ ACHIEVEMENTS GRID
 
 .achievements-p {
   font-size: 1rem;
-  letter-spacing: 1px;
-  line-height: 30px;
+  letter-spacing: 0.1rem;
+  line-height: 3rem;
   font-weight: 100;
   color: silver;
   font-family: verdana;
 }
 
 .achievements-h1 {
-  letter-spacing: 3px;
-  font-size: 45px;
+  letter-spacing: 0.3rem;
+  font-size: 4rem;
   /* color: #ff77ff; */
 }
 /* 
@@ -57,19 +57,19 @@ SKILLS GRID
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   justify-content: space-between;
-  padding: 20px;
+  padding: 2rem ;
 }
 
 .skills {
-  padding: 30px 0px;
+  padding: 1.5rem 0rem;
   align-items: center;
   justify-items: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  row-gap: 2rem;
-  margin: 5rem 0rem;
+  row-gap: 1.5rem;
+  margin: 4rem 0rem;
   background-color: #000a0091;
-  border-radius: 20px;
+  border-radius: 2rem;
   border: 1px solid #6b006b5e;
   box-shadow: 0px 2px 4px #140014;
   /* background: linear-gradient(225deg, #001100, #140014); */
@@ -97,32 +97,33 @@ JOURNEY GRID
 
 .journey-grid {
   column-gap: 2rem;
+  row-gap: 0.5rem;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-column: span 3;
   justify-items: center;
-  border-radius: 20px;
-  margin: 5rem 0rem;
-  padding: 20px;
+  align-items: center;
+  border-radius: 2rem;
+  margin: 4rem 0rem;
+  padding: 0rem 1.5rem;
   column-gap: 1rem;
   border: 1px solid #6b006b5e;
-  box-shadow: 0px 2px 4px #140014;
+  box-shadow: 0rem 2rem 4rem #140014;
 }
 
 .journey-img {
   grid-column: span 1;
   width: 200px;
   height: 160px;
-  border-radius: 20px;
+  border-radius: 2rem;
 }
 
 .journey-paragraph {
   grid-column: span 3;
-  font-size: 12px;
-  line-height: 24px;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
   color: rgb(179, 178, 178);
   font-weight: 100;
-  letter-spacing: 1px;
 }
 
 .img-switch {
@@ -144,20 +145,21 @@ PROJECTS GRID
   grid-template-columns: repeat(2, 1fr);
   column-gap: 3rem;
   row-gap: 3rem;
-  margin: 0px 20px 80px;
+  margin: 0rem 2rem 8rem;
 
 }
 
 .project-item-grid {
+  justify-items: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   row-gap: 2rem;
   column-gap: 2rem;
-  border-radius: 20px;
-  padding: 30px;
+  border-radius: 2rem;
+  padding: 1rem;
   background-color: #00110091;
-  border: 1px solid #6b006b5e;
-  box-shadow: 0px 2px 4px #140014;
+  border: 0.1rem solid #6b006b5e;
+  box-shadow: 0rem 0.2rem 0.4rem #140014;
   background: linear-gradient(225deg, #0011009d, #140014ad);
   transition: all 0.3s ease-in-out;
 
@@ -173,7 +175,7 @@ PROJECTS GRID
 
 .heading-projects {
   font-size: 3rem;
-  letter-spacing: 2px;
+  letter-spacing: 0.2rem;
   color: silver;
   text-align: center;
   margin-bottom: 2.5rem;
@@ -182,22 +184,21 @@ PROJECTS GRID
 .project-item-img {
   width: 100%;
   max-width: 300px;
-  border-radius: 20px;
+  border-radius: 2rem;
 }
 
 .project-item-heading {
   font-weight: 500;
   color: rgb(218, 218, 218);
   font-size: 1.5rem;
-  letter-spacing: 2px;
+  letter-spacing: 0.2;
 }
 
 .project-item-paragraph {
-  font-size: 1rem;
-  line-height: 24px;
+  font-size: 1.2rem;
+  line-height: 2rem;
   color: rgb(179, 178, 178);
   font-weight: 100;
-  letter-spacing: 1px;
 }
 
 /* 
@@ -211,24 +212,19 @@ TESTIMONIALS SECTION
   grid-template-columns: repeat(4, 1fr);
   column-gap: 2rem;
   margin: 4rem 1rem 8rem 1rem;
-  border-radius: 20px;
-  /* background-color: #00110091; */
-  /* border: 1px solid #6b006b5e; */
-  /* box-shadow: 0px 2px 4px #140014; */
-  /* background: linear-gradient(225deg, #0011009d, #140014ad); */
+  border-radius: 2rem;
 }
 
 .testimonials-flex {
   position: relative;
-  /* text-align: center; */
   display: flex;
   flex-direction: column;
-  align-items: center;
   row-gap: 1rem;
-  border-radius: 20px;
-  padding: 30px;
-  border: 1px solid #6b006b5e;
-  box-shadow: 0px 2px 4px #140014;
+  border-radius: 2rem;
+  padding: 1rem 1.1rem;
+  align-items: center;
+  border: 0.1rem solid #6b006b5e;
+  box-shadow: 0rem 0.2rem 0.4rem #140014;
   background: linear-gradient(225deg, #0011009d, #140014ad);
   transition: all 0.4s ease-in-out;
 
@@ -240,29 +236,29 @@ TESTIMONIALS SECTION
 }
 
 .testimonials-paragraph {
-  margin-bottom: 3rem;
-  max-height: 200px;
+  margin-bottom: 2rem;
+  max-height: 7rem;
   overflow-y: hidden;
-  font-size: 12px;
-  line-height: 24px;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
   color: rgb(179, 178, 178);
   font-weight: 100;
-  letter-spacing: 1px;
-  min-height: 200px;
+  letter-spacing: 0.1rem;
+  min-height: 20rem;
 }
 
 .testimonials-heading {
   position: absolute;
-  bottom: 20px;
+  bottom: 2rem;
   font-weight: 500;
   color: rgb(218, 218, 218);
   font-size: 1.2rem;
-  letter-spacing: 2px;
+  letter-spacing: 0.2rem;
 }
 
 .heading-testimonials {
   font-size: 2rem;
-  letter-spacing: 2px;
+  letter-spacing: 0.2rem;
   color: silver;
   text-align: center;
   margin-bottom: 2.5rem;
@@ -277,11 +273,11 @@ CONTACT US & CALL TO ACTION
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   margin-bottom:10rem ;
-  border-radius: 20px;
-  padding: 5px 30px;
+  border-radius: 2rem;
+  padding: 2rem 3rem;
   background-color: #00110091;
   border: 1px solid #6b006b5e;
-  box-shadow: 0px 2px 4px #140014;
+  box-shadow: 0rem 0.2rem 0.4rem #140014;
   background: linear-gradient(225deg, #0011009d, #140014ad);
 }
 
@@ -314,8 +310,8 @@ CONTACT US & CALL TO ACTION
 
 .form-item {
   display: flex;
-  border-radius: 20px;
-  padding: 8px 16px;
+  border-radius: 2rem;
+  padding: 0.2rem 1.6rem;
   color: rgb(0, 0, 0);
   background-color: rgb(197, 197, 197);
   column-gap: 1rem;
@@ -324,17 +320,17 @@ CONTACT US & CALL TO ACTION
 .input {
   border: none;
   background-color: rgb(197, 197, 197);
-  width: 500px;
+  width: 5rem;
   outline: none;
 }
 
 .form-user-name {
   width: 100%;
-  max-width: 30px;
+  max-width: 3rem;
 }
 
 .form-button {
-  border-radius: 20px;
+  border-radius: 2rem;
   width: 14rem;
   display: flex;
   justify-content: space-evenly;
@@ -342,8 +338,8 @@ CONTACT US & CALL TO ACTION
   column-gap: 1rem;
   color: rgb(179, 178, 178);
   font-weight: 200;
-  font-size: 14px;
-  letter-spacing: 1px;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
   border: none;
   background-color: #b900b98a;
 }
@@ -351,9 +347,10 @@ CONTACT US & CALL TO ACTION
 .btn-btn {
   display: flex;
   justify-content: end;
-  margin-right: 8px;
+  margin-right: 0.8rem;
 }
 
 .textarea-form-item {
+  padding: 2rem 2rem;
   outline: none;
 }
