@@ -9,12 +9,12 @@
 .footer-flex {
   display: flex;
   flex-direction: column;
-  row-gap: 10px;
+  row-gap: 1rem;
   list-style-type: none;
-  font-size: 14px;
+  font-size: 1.4rem;
   color: rgb(179, 178, 178);
   font-weight: 100;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
 }
 
 /*---------- Contact details ---------- */
@@ -34,21 +34,21 @@
 
 .contact-me-flex-img {
   width: 100%;
-  max-width: 30px;
+  max-width: 3rem;
 }
 
 .contact-me-flex-heading {
   font-weight: 500;
   color: rgb(179, 179, 179);
   font-size: 1.6rem;
-  letter-spacing: 2px;
+  letter-spacing: 0.2rem;
 }
 
 .contact-me-flex-paragraph {
-  font-size: 16px;
+  font-size: 1.6rem;
   color: rgb(179, 178, 178);
   font-weight: 100;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
 }
 
 
@@ -70,12 +70,12 @@
 
 .social-link-img {
   width: 100%;
-  max-width: 40px;
+  max-width: 4rem;
 }
 
 
 .social-links-flex {
-  padding-left: 20px;
+  padding-left: 2rem;
   display: flex;
   justify-content: center;
   row-gap: 1rem;
