@@ -85,7 +85,7 @@ SKILLS GRID
   grid-column: span 2;
   font-size: 2rem;
   align-self: stretch;
-  color: limegreen;
+  color: rgba(245, 245, 245, 0.774);
 }
 
 
@@ -219,9 +219,9 @@ TESTIMONIALS SECTION
   position: relative;
   display: flex;
   flex-direction: column;
-  row-gap: 1rem;
+  row-gap: 2rem;
   border-radius: 2rem;
-  padding: 1rem 1.1rem;
+  padding: 1rem 1.4rem;
   align-items: center;
   border: 0.1rem solid #6b006b5e;
   box-shadow: 0rem 0.2rem 0.4rem #140014;
@@ -236,7 +236,6 @@ TESTIMONIALS SECTION
 }
 
 .testimonials-paragraph {
-  margin-bottom: 2rem;
   max-height: 7rem;
   overflow-y: hidden;
   font-size: 1.2rem;
@@ -248,8 +247,8 @@ TESTIMONIALS SECTION
 }
 
 .testimonials-heading {
-  position: absolute;
-  bottom: 2rem;
+  /* position: absolute; */
+  /* bottom: 2rem; */
   font-weight: 500;
   color: rgb(218, 218, 218);
   font-size: 1.2rem;

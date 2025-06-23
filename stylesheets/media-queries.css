@@ -1,4 +1,23 @@
-@media (max-width: 768px) {
+@media(max-width: 2560px) {
+  .footer-flex {
+    font-size: 1.2rem;
+  }
+  .contact-me-flex-img {
+    max-width: 2rem;
+  }
+  .contact-me-flex-paragraph {
+    font-size: 1.2rem;
+  }
+  .social-link-img {
+    max-width: 2rem;
+  }
+  .social-links-flex {
+    column-gap: 4rem;
+    padding: 0rem;
+  }
+}
+
+@media(max-width: 768px) {
   html {
     font-size: 60%;
   }
@@ -58,11 +77,193 @@
 
 
 
-@media (max-width: 425px) {
+@media(max-width: 425px) {
   html {
-    font-size: 40%;
+    font-size: 20%;
   }
-  .gamma-logo {
-    /* width: 7rem; */
+
+
+.nav-bg {
+  height: 9rem;
+}
+.nav-list {
+  font-size: 3rem;
+  padding: 1rem 3rem;
+}
+.nav-contact-me {
+  border: none;
+}
+
+  .hero {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+  }
+  .gamma-img {
+    grid-column: span 0;
+    max-width: 65rem;
+  }
+  .hero-flex {
+    grid-column: span 0;
+    align-items: center;
+  }
+  .hero-header {
+    text-align: center;
+    font-size: 4.5rem;
+    margin-bottom: 3rem;
+  }
+  .p-nav, .valentine {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .p-nav2 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    line-height: 4rem;
+  }
+
+
+  .achievements-grid {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 5rem;
+  }
+  .achievements-flex {
+    width: 44rem;
+    height: 34rem;
+  }
+  .achievements-img {
+    max-width: 50px;
+  }
+  .achievements-p {
+    font-size: 3rem;
+  }
+  .achievements-h1 {
+    font-size: 5rem;
+  }
+
+  .skills-journey-grid {
+    display: flex;
+    flex-direction: column;
+    /* grid-template-columns: repeat(1, 1fr); */
+    
+  }
+  .journey-grid {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 2rem;
+    row-gap: 4rem;
+  }
+  .journey-paragraph {
+    column-span: span 1;
+    font-size: 3rem;
+    line-height: 6rem;
+  }
+  .journey-img {
+    grid-column: span 0;
+    width: 250px;
+  }
+  .img-switch {
+    grid-column: auto;
+    grid-row: auto;
+  }
+  .call-to-action-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .cta-banner-img {
+    display: none;
+  }
+  .skills {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .h1-skills {
+    grid-column: span 6;
+    font-size: 4rem;
+    padding: 2rem;
+  }
+  .skills-img {
+    max-width: 20px;
+  }
+
+  .projects-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .project-item-img {
+    max-width: 150px;
+  }
+  .heading-projects {
+    font-size: 4rem;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .heading-testimonials {
+    font-size: 4rem;
+  }
+  .project-item-paragraph {
+    font-size: 3.5rem;
+    line-height: 6rem;
+  }
+  .project-item-heading {
+    font-size: 4.5rem;
+  }
+
+
+  .testimonials-grid {
+    row-gap: 2rem;
+  }
+  .testimonials-flex {
+    border: none;
+    background: none;
+  }
+  .testimonials-paragraph {
+     font-size: 3rem;
+    line-height: 6rem;
+    min-height: 45rem;
+  }
+  .testimonials-img {
+    max-width: 40px;
+  }
+  .testimonials-heading {
+    font-size: 4.5rem;
+  }
+  .form-item {
+    padding: 3rem 1.6rem;
+    column-gap: 3rem;
+  }
+  .input {
+    width: 90rem;
+  }
+  .form-user-name {
+    max-width: 5.5rem;
+  }
+  .form-button {
+    width: 40rem;
+    font-size: 4rem;
+    padding: 2rem 1rem;
+  }
+  .footer-img {
+    height: 15px;
+  }
+  .footer-flex {
+    font-size: 2.7rem;
+  }
+  .footer-flex-hidden {
+    display: none;
+  }
+  .footer-grid {
+    grid-template-columns: repeat(4,1fr);
+  }
+  .contact-me-flex-img {
+    max-width: 4.9rem;
+  }
+  .contact-me-flex-main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contact-me-flex-paragraph {
+    font-size: 2.8rem;
+  }
+  .social-link-img {
+    max-width: 4rem;
   }
 } 
