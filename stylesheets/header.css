@@ -21,6 +21,11 @@ a {
   text-decoration: none;
   color: silver;
 }
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
 a:hover {
   color: whitesmoke;
 }
@@ -88,6 +93,9 @@ nav-link-item{
   font-weight: 500;
   transition: all 0.2s ease-in-out;
 }
+.icon-close {
+  display: none;
+}
 
 
 
@@ -146,7 +154,6 @@ HERO SECTION
   font-size: 1rem;
   letter-spacing: 1px;
   line-height: 3rem;
-  font-weight: 100;
   color: whitesmoke;
   font-family: verdana;
 }

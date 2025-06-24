@@ -29,7 +29,27 @@
           <li class="nav-link-item"><a href="#">blog</a></li>
         </ul>
       </li>
-      <li><img src="images/hamburger-menu-svgrepo-com.svg" alt="humbuger" class="hamburger"  id="hum"></li>
+      <li>
+        <button type="button" id="hum" class="hamburger">.
+          <span class="icon-hamburger">
+            <!-- Hamburger SVG -->
+            <svg width="30" height="30" viewBox="0 0 100 80" fill="white">
+              <rect width="100" height="10"></rect>
+              <rect y="30" width="100" height="10"></rect>
+              <rect y="60" width="100" height="10"></rect>
+            </svg>
+          </span>
+
+          <span class="icon-close">
+            <!-- X/Close SVG -->
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="white">
+              <path d="M18 6L6 18M6 6l12 12" stroke="white" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </span>
+        </button>
+        <!-- <img src="images/hamburger-menu-svgrepo-com.svg" alt="humbuger" class="hamburger"  id="hum"> -->
+      
+      </li>
       <li class="nav-contact-me">Contact me</li>
     </ul>
     </nav>
@@ -258,7 +278,7 @@ CALL TO ACTION
 
           <textarea name="Message" id="" cols="30" rows="10" placeholder="Message" class="form-item textarea-form-item"></textarea>
           <div class="btn-btn">
-            <button ty class="form-button">
+            <button type="button" class="form-button">
             <p>Submit</p>
             <img src="images/form-next-link-svgrepo-com.svg" alt="user" class="form-user-name">
           </button>

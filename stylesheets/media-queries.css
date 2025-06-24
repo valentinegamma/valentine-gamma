@@ -90,9 +90,14 @@
 
 .hamburger {
   display: block;
-  max-width: 12rem;
-
+  /* max-width: 12rem; */
 }
+#menu-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
 .nav-bg {
   height: 15rem;
   /* display: none; */
@@ -197,7 +202,7 @@
   .journey-grid {
     grid-template-columns: repeat(1, 1fr);
     padding: 2rem;
-    row-gap: 4rem;
+    row-gap: 8rem;
     border: none;
   }
   .journey-paragraph {
@@ -326,6 +331,10 @@
     font-size: 2.8rem;
   }
   .social-link-img {
-    max-width: 4rem;
+    max-width: 5rem;
+  }
+    .social-links-flex {
+    column-gap: 8rem;
+    padding: 0rem;
   }
 } 
