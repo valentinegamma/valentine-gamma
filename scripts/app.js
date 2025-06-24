@@ -3,7 +3,6 @@ const navLinks = document.querySelector('.nav-links');
 const iconHamburger = document.querySelector('.icon-hamburger');
 const iconClose = document.querySelector('.icon-close');
 
-// Toggle menu and icons together
 btn.addEventListener("click", (e) => {
   e.stopPropagation();
   navLinks.classList.toggle("show");
@@ -12,7 +11,6 @@ btn.addEventListener("click", (e) => {
   iconClose.style.display = isOpen ? "inline" : "none";
 });
 
-// Hide menu and reset icons when clicking outside
 document.addEventListener("click", (e) => {
   if (
     !navLinks.contains(e.target) &&
@@ -24,7 +22,6 @@ document.addEventListener("click", (e) => {
   }
 });
 
-// Hide menu and reset icons when clicking a link inside the menu
 navLinks.addEventListener("click", (e) => {
   if (e.target.tagName === "A") {
     navLinks.classList.remove("show");
@@ -75,4 +72,8 @@ if (achievementsSection) {
   );
   observer.observe(achievementsSection);
 }
+
+
+
+
 
