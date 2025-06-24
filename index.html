@@ -10,7 +10,8 @@
   <link rel="stylesheet" href="stylesheets/footer.css">
   <link rel="stylesheet" href="stylesheets/transitions.css">
   <link rel="stylesheet" href="stylesheets/media-queries.css">
-  <script src="script.js" defer></script>
+  <script src="scripts/app.js" defer></script>
+  <script src="scripts/links.js" defer></script>
 </head>
 <body>
 
@@ -18,15 +19,17 @@
   <img src="images/images.jpeg" alt="hero background" class="hero-background">
   
   <div class="container">
-    <nav>
+    <nav id="nav">
     <ul class="nav-list">
       <li> <img src="images/gamma_logo.png" alt="gamma-logo" class="gamma-logo"></li>
       <li>
         <ul class="nav-links" id="dropdownMenu">
-          <li class="nav-link-item"><a href="#">services</a></li>
-          <li class="nav-link-item"><a href="#">projects</a></li>
-          <li class="nav-link-item"><a href="#">portfolio</a></li>
-          <li class="nav-link-item"><a href="#">blog</a></li>
+          <li class="nav-link-item"><a href="#about">about</a></li>
+          <li class="nav-link-item"><a href="#portfolio">portfolio</a></li>
+          <li class="nav-link-item"><a href="#projects">projects</a></li>
+          <li class="nav-link-item"><a href="#contact">contact</a></li>
+          <li class="nav-link-item"><a href="#services">services</a></li>
+          <li class="nav-link-item"><a href="#blogs">blog</a></li>
         </ul>
       </li>
       <li>
@@ -50,7 +53,7 @@
         <!-- <img src="images/hamburger-menu-svgrepo-com.svg" alt="humbuger" class="hamburger"  id="hum"> -->
       
       </li>
-      <li class="nav-contact-me">Contact me</li>
+      <li class="nav-contact-me"><a href="#footer">Contact me</a></li>
     </ul>
     </nav>
 
@@ -77,7 +80,7 @@
       <!-- --------------------------------------------------
       SKILLS & JOURNEY SECTION
       -------------------------------------------------- -->
-      <section class="achievements-grid">
+      <section class="achievements-grid" id="about">
         
         <div class="achievements-flex">
           
@@ -105,7 +108,7 @@
         </div>
       </section>
 
-      <section class="skills-journey-grid">
+      <section class="skills-journey-grid" id="about">
         <article class="journey-grid">
 
           <img src="images/images (6).jpeg" alt="coding-img" class="journey-img">
@@ -127,7 +130,7 @@
 
         </article>
 
-        <article class="skills">
+        <article class="skills" id="portfolio">
           <h1 class="h1-skills">my skills</h1>
           <img src="images/html-5-svgrepo-com.svg" alt="HTML" class="skills-img">
           <img src="images/css-3-svgrepo-com.svg" alt="CSS" class="skills-img">
@@ -149,7 +152,7 @@ PROJECTS SECTION
 -------------------------------------------------- -->
       <!-- MAIN GRID -->
        <h1 class="heading-projects"> &lt;/ My projects &gt; </h1>
-      <section class="projects-grid">
+      <section class="projects-grid" id="projects">
 
         <!-- Grid containing project items -->
         <article class="project-item-grid">
@@ -260,7 +263,7 @@ CALL TO ACTION
 -------------------------------------------------- -->
 
 <!-- Main grid containing form and contact info card -->
-      <section class="call-to-action-grid">
+      <section class="call-to-action-grid" id="contact">
         <article class="cta-banner">
           <img src="images/contact-us-or-the-customer-support.png" alt="cta-banner-img" class="cta-banner-img">
         </article>
@@ -289,10 +292,10 @@ CALL TO ACTION
 
     </main>
 
-    <footer class="container">
+    <footer class="container" id="footer">
       <section class="footer-grid">
         <ul class="footer-flex footer-flex-hidden">
-          <li><img src="images/gamma_logo.png" alt="gamma-logo" height="30px" class="footer-img"></li>
+          <li><a href="#nav"><img src="images/gamma_logo.png" alt="gamma-logo" height="30px" class="footer-img"></a></li>
           <li>Code Precision</li>
         </ul>
         <ul class="footer-flex">

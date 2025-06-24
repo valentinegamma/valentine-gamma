@@ -5,7 +5,8 @@
 }
 
 html {
-  font-size: 80%
+  font-size: 80%;
+  scroll-behavior: smooth;
 }
 
 .root {

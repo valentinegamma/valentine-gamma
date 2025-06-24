@@ -46,6 +46,7 @@
     max-width: 40px;
   }
   .journey-paragraph {
+    padding: 2rem 4rem;
     letter-spacing: 0.1rem;
     font-size: 1.1rem;
   }
@@ -120,10 +121,10 @@
   top: 50px;
   right: 0;
   width: 200px;
-  height: 300px;
+  height: 400px;
   padding: 20px;
   font-size: 8rem;
-  background: linear-gradient(to right, #001800, #1a001a);
+  background: linear-gradient(to right, #000e00, #0a000a);
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -163,7 +164,8 @@
     margin-bottom: 1rem;
   }
   .p-nav2 {
-    font-size: 3rem;
+    padding: 1rem 4rem;
+    font-size: 4rem;
     text-align: center;
     margin-bottom: 2rem;
     line-height: 4rem;
@@ -188,6 +190,7 @@
   }
   .achievements-p {
     font-size: 3rem;
+    font-weight: 300;
   }
   .achievements-h1 {
     font-size: 5rem;
