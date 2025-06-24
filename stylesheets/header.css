@@ -41,6 +41,9 @@ NAV BAR
   /* background: linear-gradient(to right, #002c00, #2c002c); */
 
 }
+.humbuger {
+  max-width: 2rem;
+}
 
 .nav-list {
   letter-spacing: 0.1rem;
@@ -134,7 +137,7 @@ HERO SECTION
   letter-spacing: 1px;
   line-height: 3rem;
   font-weight: 100;
-  color: silver;
+  color: whitesmoke;
   font-family: verdana;
 }
 

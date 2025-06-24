@@ -21,6 +21,9 @@
   html {
     font-size: 60%;
   }
+  .hamburger {
+    display: none;
+  }
 
   .hero-flex {
     row-gap: 0rem;
@@ -82,16 +85,25 @@
     font-size: 20%;
   }
 
+.hamburger {
+  display: block;
+  max-width: 12rem;
 
+}
 .nav-bg {
-  height: 9rem;
+  height: 15rem;
+  /* display: none; */
 }
 .nav-list {
-  font-size: 3rem;
-  padding: 1rem 3rem;
+  font-size: 4rem;
+  padding: 2rem 5rem;
 }
 .nav-contact-me {
   border: none;
+  display: none;
+}
+.nav-links {
+  display: none;
 }
 
   .hero {
@@ -102,17 +114,21 @@
     grid-column: span 0;
     max-width: 65rem;
   }
+  .gamma-logo {
+    max-width: 24rem;
+  }
   .hero-flex {
     grid-column: span 0;
     align-items: center;
   }
   .hero-header {
     text-align: center;
-    font-size: 4.5rem;
+    font-size: 7rem;
+    padding: 1rem 2rem;
     margin-bottom: 3rem;
   }
   .p-nav, .valentine {
-    font-size: 3rem;
+    font-size: 4rem;
     margin-bottom: 1rem;
   }
   .p-nav2 {
@@ -151,10 +167,11 @@
     grid-template-columns: repeat(1, 1fr);
     padding: 2rem;
     row-gap: 4rem;
+    border: none;
   }
   .journey-paragraph {
     column-span: span 1;
-    font-size: 3rem;
+    font-size: 4rem;
     line-height: 6rem;
   }
   .journey-img {
@@ -167,12 +184,14 @@
   }
   .call-to-action-grid {
     grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 15rem;
   }
   .cta-banner-img {
     display: none;
   }
   .skills {
     grid-template-columns: repeat(6, 1fr);
+    border: none;
   }
   .h1-skills {
     grid-column: span 6;
@@ -185,6 +204,9 @@
 
   .projects-grid {
     grid-template-columns: repeat(1, 1fr);
+  }
+  .project-item-grid {
+    border: none;
   }
   .project-item-img {
     max-width: 150px;
@@ -200,7 +222,7 @@
     font-size: 4rem;
   }
   .project-item-paragraph {
-    font-size: 3.5rem;
+    font-size: 4rem;
     line-height: 6rem;
   }
   .project-item-heading {
