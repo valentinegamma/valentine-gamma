@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="stylesheets/footer.css">
   <link rel="stylesheet" href="stylesheets/transitions.css">
   <link rel="stylesheet" href="stylesheets/media-queries.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
 
@@ -21,13 +22,14 @@
     <ul class="nav-list">
       <li> <img src="images/gamma_logo.png" alt="gamma-logo" class="gamma-logo"></li>
       <li>
-        <ul class="nav-links">
+        <ul class="nav-links" id="dropdownMenu">
           <li class="nav-link-item">services</li>
           <li class="nav-link-item">projects</li>
           <li class="nav-link-item">portfolio</li>
+          <li class="nav-link-item">blog</li>
         </ul>
       </li>
-      <li><img src="images/hamburger-menu-svgrepo-com.svg" alt="humbuger" class="hamburger"></li>
+      <li><img src="images/hamburger-menu-svgrepo-com.svg" alt="humbuger" class="hamburger" onclick="toggleDropdown()"></li>
       <li class="nav-contact-me">Contact me</li>
     </ul>
     </nav>

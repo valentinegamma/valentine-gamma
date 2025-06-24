@@ -65,6 +65,10 @@ NAV BAR
   justify-content: space-between;
   column-gap: 4rem;
 }
+nav-link-item{
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
 
 .gamma-logo {
   width: 100%;

@@ -1,4 +1,7 @@
 @media(max-width: 2560px) {
+  .hamburger {
+    display: none;
+  }
   .footer-flex {
     font-size: 1.2rem;
   }
@@ -104,7 +107,23 @@
 }
 .nav-links {
   display: none;
+  flex-direction: column;
+  background: linear-gradient(to right, #001800, #1a001a);
+  color: silver;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  width: 200px;
+  height: 300px;
+  padding: 20px 20px 20px 10px;
+  font-size: 8rem;
+  align-items: end;
+  justify-items: center;
+  border-radius: 8px;
 }
+.nav-links.show {
+      display: flex;
+    }
 
   .hero {
     grid-template-columns: repeat(1, 1fr);
