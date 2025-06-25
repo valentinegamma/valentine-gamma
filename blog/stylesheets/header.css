@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+  
+html {
+  font-size: 80%;
+  scroll-behavior: smooth;
+}
+
+.root {
+   --font-family: 'poppins', sans-serif;
+}
+
+body {
+  color: whitesmoke;
+  background-color: #0a0d11;
+  font-family: Arial;
+}
+a {
+  text-decoration: none;
+  color: silver;
+}
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+a:hover {
+  color: whitesmoke;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0rem 2rem;
+}

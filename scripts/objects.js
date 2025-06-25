@@ -87,7 +87,7 @@ projects.forEach((project) => {
       <div class="project-item-flex">
         <h2 class="project-item-heading">${project.heading}</h2>
         <p class="project-item-paragraph">${project.paragraph}</p>
-      /div>
+      </div>
     </article>
   `
 })
@@ -105,12 +105,15 @@ testimonials.forEach((testimonial) => {
   testimonialHtml += `
     <article class="testimonials-flex">
       <img src="${testimonial.img.src}" alt="${testimonial.img.alt}" class="testimonials-img">
-      <h2 class="testimonials-heading">${testimonial.heading}</h2>
+      <h2 class="testimonials-heading">
+        ${testimonial.heading}
+      </h2>
       <p class="testimonials-paragraph">
         ${testimonial.paragraph}
       </p>
-      </article>
+    </article>
   `
 });
 
 document.querySelector(".js-testimonials-grid").innerHTML = testimonialHtml;
+
