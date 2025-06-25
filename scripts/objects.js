@@ -87,7 +87,7 @@ projects.forEach((project) => {
       <div class="project-item-flex">
         <h2 class="project-item-heading">${project.heading}</h2>
         <p class="project-item-paragraph">${project.paragraph}</p>
-      /div>
+      </div>
     </article>
   `
 })

@@ -15,7 +15,7 @@ html {
 
 body {
   color: whitesmoke;
-  background-color: #08090e;
+  background-color: #10111a;
   font-family: Arial;
 }
 a {
@@ -156,6 +156,7 @@ HERO SECTION
   letter-spacing: 1px;
   line-height: 3rem;
   color: whitesmoke;
+  font-weight: 300;
   font-family: verdana;
 }
 
