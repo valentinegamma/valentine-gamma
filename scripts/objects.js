@@ -2,7 +2,7 @@
 //                  PROJECTS DATA
 // ------------------------------------------------
 
-const projects = [
+export const projects = [
 
   {
   img: {
@@ -38,7 +38,7 @@ const projects = [
 //            TESTIMONIALS DATA
 // ------------------------------------------------
 
-const testimonials = [{
+export const testimonials = [{
   img : {
     src: "images/testimonial-img-1.png",
     alt: "testimonial-img-1"
